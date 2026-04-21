@@ -6,8 +6,8 @@ from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 
-ALPACA_API_KEY    = "PKCYEN7OJAIXY2EN6RRMJVERYT"
-ALPACA_SECRET_KEY = "GvRPp9vvZ5oRCceTpjVhWWYJmmMABHQbCenrB77d6j3q"
+ALPACA_API_KEY    = "YOUR_API_KEY"
+ALPACA_SECRET_KEY = "YOUR_API_SECRET"
 SIGNALS_FILE      = os.path.expanduser("~/Desktop/signals.json")
 LOG_FILE          = os.path.expanduser("~/Desktop/trade_log.txt")
 
