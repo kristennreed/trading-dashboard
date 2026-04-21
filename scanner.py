@@ -10,8 +10,8 @@ from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 
 # ── Credentials ──────────────────────────────────────────────
-ALPACA_API_KEY    = "PKCYEN7OJAIXY2EN6RRMJVERYT"
-ALPACA_SECRET_KEY = "GvRPp9vvZ5oRCceTpjVhWWYJmmMABHQbCenrB77d6j3q"
+ALPACA_API_KEY    = "YOUR_API_KEY"
+ALPACA_SECRET_KEY = "YOUR_API_SECRET"
 ANTHROPIC_API_KEY = "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"
 
 # ── Clients ───────────────────────────────────────────────────
