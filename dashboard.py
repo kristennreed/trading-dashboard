@@ -17,10 +17,15 @@ st.title("📈 AI Market Scanner Dashboard")
 st.caption(f"Last refreshed: {datetime.now().strftime('%A %B %d, %Y %I:%M %p')}")
 
 def load_signals():
-    if os.path.exists(SIGNALS_FILE):
-        with open(SIGNALS_FILE, "r") as f:
-            return json.load(f)
-    return []
+    try:
+        import requests
+        url = "https://raw.githubusercontent.com/kristennreed/trading-dashboard/main/signals.json"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        return []
+    except:
+        return []
 
 def save_signals(signals):
     with open(SIGNALS_FILE, "w") as f:
