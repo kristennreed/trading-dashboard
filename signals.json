@@ -14,7 +14,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 42.4 | MACD: bearish | BB: middle | Volume spike 2.32x with -5.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065104"
+    "scanned_at": "2026-04-28T19:48:05.658373"
   },
   {
     "symbol": "KLAC",
@@ -31,7 +31,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 62.8 | MACD: bearish | BB: middle | Volume spike 1.55x with -4.79% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065175"
+    "scanned_at": "2026-04-28T19:48:05.658405"
   },
   {
     "symbol": "UPS",
@@ -48,7 +48,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 53.8 | MACD: bearish | BB: middle | Volume spike 2.62x with -3.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065187"
+    "scanned_at": "2026-04-28T19:48:05.658419"
   },
   {
     "symbol": "KO",
@@ -65,7 +65,7 @@
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 62.2 | MACD: bearish | BB: above_upper | Volume spike 2.37x with +3.86% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065197"
+    "scanned_at": "2026-04-28T19:48:05.658430"
   },
   {
     "symbol": "CDNS",
@@ -82,7 +82,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 63.1 | MACD: bearish | BB: middle | Volume spike 2.08x with -3.34% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065208"
+    "scanned_at": "2026-04-28T19:48:05.658440"
   },
   {
     "symbol": "GEHC",
@@ -99,6 +99,6 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 37.4 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.81% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:27:37.065217"
+    "scanned_at": "2026-04-28T19:48:05.658451"
   }
 ]
