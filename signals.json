@@ -1,7 +1,7 @@
 [
   {
     "symbol": "PCAR",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 119.61,
     "target": 129.18,
@@ -14,7 +14,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 42.4 | MACD: bearish | BB: middle | Volume spike 2.32x with -5.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658373"
+    "scanned_at": "2026-04-28T20:16:10.870084"
   },
   {
     "symbol": "KLAC",
@@ -31,11 +31,11 @@
     "sector": "Technology",
     "reasoning": "RSI: 62.8 | MACD: bearish | BB: middle | Volume spike 1.55x with -4.79% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658405"
+    "scanned_at": "2026-04-28T20:16:10.870152"
   },
   {
     "symbol": "UPS",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 103.94,
     "target": 112.26,
@@ -48,7 +48,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 53.8 | MACD: bearish | BB: middle | Volume spike 2.62x with -3.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658419"
+    "scanned_at": "2026-04-28T20:16:10.870189"
   },
   {
     "symbol": "KO",
@@ -65,11 +65,11 @@
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 62.2 | MACD: bearish | BB: above_upper | Volume spike 2.37x with +3.86% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658430"
+    "scanned_at": "2026-04-28T20:16:10.870232"
   },
   {
     "symbol": "CDNS",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 325.31,
     "target": 351.33,
@@ -82,11 +82,11 @@
     "sector": "Technology",
     "reasoning": "RSI: 63.1 | MACD: bearish | BB: middle | Volume spike 2.08x with -3.34% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658440"
+    "scanned_at": "2026-04-28T20:16:10.870267"
   },
   {
     "symbol": "GEHC",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 68.5,
     "target": 73.98,
@@ -99,6 +99,6 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 37.4 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.81% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T19:48:05.658451"
+    "scanned_at": "2026-04-28T20:16:10.870297"
   }
 ]
