@@ -8,7 +8,6 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 
 ALPACA_API_KEY = st.secrets["ALPACA_API_KEY"]
 ALPACA_SECRET_KEY = st.secrets["ALPACA_SECRET_KEY"]
-SIGNALS_FILE = "/tmp/signals.json"
 
 trading_client = TradingClient(ALPACA_API_KEY, ALPACA_SECRET_KEY, paper=True)
 
