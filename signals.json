@@ -1,11 +1,11 @@
 [
   {
     "symbol": "PCAR",
-    "action": "BUY",
-    "confidence": "Low",
+    "action": "SELL",
+    "confidence": "Medium",
     "price": 119.61,
-    "target": 125.0,
-    "stop_loss": 115.5,
+    "target": 129.18,
+    "stop_loss": 113.63,
     "change_pct": -5.97,
     "volume_spike": 2.32,
     "rsi": 42.4,
@@ -14,14 +14,14 @@
     "sector": "Industrials",
     "reasoning": "RSI: 42.4 | MACD: bearish | BB: middle | Volume spike 2.32x with -5.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595394"
+    "scanned_at": "2026-04-28T22:43:30.870996"
   },
   {
     "symbol": "KLAC",
     "action": "SELL",
-    "confidence": "Low",
+    "confidence": "Medium",
     "price": 1808.97,
-    "target": 1700.0,
+    "target": 1953.69,
     "stop_loss": 1718.52,
     "change_pct": -4.79,
     "volume_spike": 1.55,
@@ -31,15 +31,15 @@
     "sector": "Technology",
     "reasoning": "RSI: 62.8 | MACD: bearish | BB: middle | Volume spike 1.55x with -4.79% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595503"
+    "scanned_at": "2026-04-28T22:43:30.871117"
   },
   {
     "symbol": "UPS",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Low",
     "price": 103.94,
-    "target": 125.0,
-    "stop_loss": 115.5,
+    "target": 73.5,
+    "stop_loss": 66.8,
     "change_pct": -3.97,
     "volume_spike": 2.62,
     "rsi": 53.8,
@@ -48,12 +48,12 @@
     "sector": "Industrials",
     "reasoning": "RSI: 53.8 | MACD: bearish | BB: middle | Volume spike 2.62x with -3.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595563"
+    "scanned_at": "2026-04-28T22:43:30.871176"
   },
   {
     "symbol": "KO",
     "action": "SELL",
-    "confidence": "Medium",
+    "confidence": "Low",
     "price": 78.35,
     "target": 84.62,
     "stop_loss": 74.43,
@@ -65,15 +65,15 @@
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 62.2 | MACD: bearish | BB: above_upper | Volume spike 2.37x with +3.86% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595617"
+    "scanned_at": "2026-04-28T22:43:30.871241"
   },
   {
     "symbol": "CDNS",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Low",
     "price": 325.31,
-    "target": 351.33,
-    "stop_loss": 309.04,
+    "target": 340.0,
+    "stop_loss": 314.0,
     "change_pct": -3.34,
     "volume_spike": 2.08,
     "rsi": 63.1,
@@ -82,15 +82,15 @@
     "sector": "Technology",
     "reasoning": "RSI: 63.1 | MACD: bearish | BB: middle | Volume spike 2.08x with -3.34% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595684"
+    "scanned_at": "2026-04-28T22:43:30.871291"
   },
   {
     "symbol": "GEHC",
     "action": "BUY",
     "confidence": "Low",
     "price": 68.5,
-    "target": 72.5,
-    "stop_loss": 66.5,
+    "target": 73.5,
+    "stop_loss": 66.8,
     "change_pct": -2.81,
     "volume_spike": 1.57,
     "rsi": 37.4,
@@ -99,6 +99,6 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 37.4 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.81% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-28T22:37:13.595728"
+    "scanned_at": "2026-04-28T22:43:30.871336"
   }
 ]
