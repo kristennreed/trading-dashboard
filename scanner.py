@@ -12,9 +12,9 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 
-ALPACA_API_KEY    = "PKZQJZO63W5TE7HWBASDY6M74I"
-ALPACA_SECRET_KEY = "4QmaxZbLVuzMwytauk17SGx8guaousE6kwit7AcR6W29"
-ANTHROPIC_API_KEY = "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"
+ALPACA_API_KEY    = "YOUR_ALPACA_KEY"
+ALPACA_SECRET_KEY = "YOUR_ALPACA_SECRET"
+ANTHROPIC_API_KEY = "YOUR_ANTHROPIC_KEY"
 SIGNALS_FILE = os.path.expanduser("~/Desktop/trading-dashboard/signals.json")
 
 trading_client = TradingClient(ALPACA_API_KEY, ALPACA_SECRET_KEY, paper=True)
@@ -359,7 +359,7 @@ for c in enriched[:10]:
         "status":       "pending",
         "scanned_at":   datetime.now().isoformat()
     })
-    
+
 with open(SIGNALS_FILE, "w") as f:
     json.dump(signals, f, indent=2)
 print(f"Saved {len(signals)} signals to {SIGNALS_FILE}")
