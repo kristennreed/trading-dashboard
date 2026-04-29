@@ -26,10 +26,6 @@ def load_signals():
     except:
         return []
 
-def save_signals(signals):
-    with open(SIGNALS_FILE, "w") as f:
-        json.dump(signals, f, indent=2)
-
 st.subheader("Account Overview")
 try:
     account = trading_client.get_account()
