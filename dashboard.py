@@ -26,6 +26,16 @@ def load_signals():
     except:
         return []
 
+def save_signals(signals):
+    try:
+        import subprocess
+        import json
+        signals_path = os.path.expanduser("~/Desktop/trading-dashboard/signals.json")
+        with open(signals_path, "w") as f:
+            json.dump(signals, f, indent=2)
+    except Exception as e:
+        st.error(f"Could not save signals: {e}")
+
 st.subheader("Account Overview")
 try:
     account = trading_client.get_account()
