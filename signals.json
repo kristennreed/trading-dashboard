@@ -1,7 +1,7 @@
 [
   {
     "symbol": "GEHC",
-    "action": "BUY",
+    "action": "SELL",
     "confidence": "Medium",
     "price": 59.49,
     "target": 68.0,
@@ -14,7 +14,7 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 20.6 | MACD: bearish | BB: below_lower | Volume spike 7.17x with -13.16% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.275835"
+    "scanned_at": "2026-04-29T20:31:30.696162"
   },
   {
     "symbol": "INTC",
@@ -31,7 +31,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 91.1 | MACD: bearish | BB: above_upper | Volume spike 1.74x with +12.10% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.275952"
+    "scanned_at": "2026-04-29T20:31:30.696293"
   },
   {
     "symbol": "SBUX",
@@ -48,11 +48,11 @@
     "sector": "Consumer Cyclical",
     "reasoning": "RSI: 78.5 | MACD: bearish | BB: above_upper | Volume spike 3.99x with +8.45% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276018"
+    "scanned_at": "2026-04-29T20:31:30.696350"
   },
   {
     "symbol": "V",
-    "action": "BUY",
+    "action": "SELL",
     "confidence": "Medium",
     "price": 334.86,
     "target": 68.0,
@@ -65,15 +65,15 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 80.5 | MACD: bearish | BB: above_upper | Volume spike 2.73x with +8.26% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276076"
+    "scanned_at": "2026-04-29T20:31:30.696400"
   },
   {
     "symbol": "VRSK",
     "action": "BUY",
-    "confidence": "Low",
+    "confidence": "Medium",
     "price": 188.19,
-    "target": 198.0,
-    "stop_loss": 178.0,
+    "target": 203.25,
+    "stop_loss": 178.78,
     "change_pct": 6.53,
     "volume_spike": 1.99,
     "rsi": 63.5,
@@ -82,14 +82,14 @@
     "sector": "Industrials",
     "reasoning": "RSI: 63.5 | MACD: bearish | BB: middle | Volume spike 1.99x with +6.53% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276131"
+    "scanned_at": "2026-04-29T20:31:30.696456"
   },
   {
     "symbol": "REGN",
     "action": "BUY",
     "confidence": "Medium",
     "price": 686.36,
-    "target": 750.0,
+    "target": 760.0,
     "stop_loss": 648.0,
     "change_pct": -6.21,
     "volume_spike": 2.76,
@@ -99,11 +99,11 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 21.2 | MACD: bearish | BB: below_lower | Volume spike 2.76x with -6.21% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276187"
+    "scanned_at": "2026-04-29T20:31:30.696527"
   },
   {
     "symbol": "BIIB",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 194.38,
     "target": 209.93,
@@ -116,15 +116,15 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 64.2 | MACD: bearish | BB: above_upper | Volume spike 1.88x with +6.00% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276250"
+    "scanned_at": "2026-04-29T20:31:30.696587"
   },
   {
     "symbol": "ODFL",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Low",
     "price": 209.35,
     "target": 225.0,
-    "stop_loss": 194.0,
+    "stop_loss": 193.0,
     "change_pct": -5.6,
     "volume_spike": 2.72,
     "rsi": 47.5,
@@ -133,7 +133,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 47.5 | MACD: bearish | BB: middle | Volume spike 2.72x with -5.60% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276311"
+    "scanned_at": "2026-04-29T20:31:30.696631"
   },
   {
     "symbol": "QCOM",
@@ -150,7 +150,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 86.4 | MACD: bearish | BB: above_upper | Volume spike 2.66x with +4.00% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276372"
+    "scanned_at": "2026-04-29T20:31:30.696682"
   },
   {
     "symbol": "MA",
@@ -167,6 +167,6 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 69.1 | MACD: bearish | BB: middle | Volume spike 1.89x with +3.47% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:27:53.276428"
+    "scanned_at": "2026-04-29T20:31:30.696728"
   }
 ]
