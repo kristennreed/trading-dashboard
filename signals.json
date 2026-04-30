@@ -170,7 +170,7 @@
     "bb_position": "middle",
     "sector": "Financial Services",
     "reasoning": "RSI: 69.1 | MACD: bearish | BB: middle | Volume spike 1.89x with +3.47% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-04-29T21:08:37.182761"
   }
 ]
