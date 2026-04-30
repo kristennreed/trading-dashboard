@@ -100,8 +100,10 @@
     "bb_position": "below_lower",
     "sector": "Healthcare",
     "reasoning": "RSI: 21.2 | MACD: bearish | BB: below_lower | Volume spike 2.76x with -6.21% price move.",
-    "status": "pending",
-    "scanned_at": "2026-04-29T21:08:37.182098"
+    "status": "executed",
+    "scanned_at": "2026-04-29T21:08:37.182098",
+    "order_id": "e2a95c63-f859-4a2f-88cc-c6c9b0bda784",
+    "executed_at": "2026-04-30T02:11:47.129783"
   },
   {
     "symbol": "BIIB",
