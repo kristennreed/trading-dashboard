@@ -1,11 +1,11 @@
 [
   {
     "symbol": "GEHC",
-    "action": "SELL",
+    "action": "BUY",
     "confidence": "Medium",
     "price": 59.49,
-    "target": 64.25,
-    "stop_loss": 56.52,
+    "target": 71.0,
+    "stop_loss": 55.5,
     "change_pct": -13.16,
     "volume_spike": 7.17,
     "rsi": 20.6,
@@ -14,7 +14,7 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 20.6 | MACD: bearish | BB: below_lower | Volume spike 7.17x with -13.16% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810444"
+    "scanned_at": "2026-04-29T21:08:37.181201"
   },
   {
     "symbol": "INTC",
@@ -31,7 +31,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 91.1 | MACD: bearish | BB: above_upper | Volume spike 1.74x with +12.10% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810516"
+    "scanned_at": "2026-04-29T21:08:37.181419"
   },
   {
     "symbol": "SBUX",
@@ -48,11 +48,11 @@
     "sector": "Consumer Cyclical",
     "reasoning": "RSI: 78.5 | MACD: bearish | BB: above_upper | Volume spike 3.99x with +8.45% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810540"
+    "scanned_at": "2026-04-29T21:08:37.181578"
   },
   {
     "symbol": "V",
-    "action": "BUY",
+    "action": "SELL",
     "confidence": "Medium",
     "price": 334.86,
     "target": 361.65,
@@ -65,12 +65,12 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 80.5 | MACD: bearish | BB: above_upper | Volume spike 2.73x with +8.26% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810563"
+    "scanned_at": "2026-04-29T21:08:37.181748"
   },
   {
     "symbol": "VRSK",
     "action": "BUY",
-    "confidence": "Medium",
+    "confidence": "Low",
     "price": 188.19,
     "target": 203.25,
     "stop_loss": 178.78,
@@ -82,15 +82,15 @@
     "sector": "Industrials",
     "reasoning": "RSI: 63.5 | MACD: bearish | BB: middle | Volume spike 1.99x with +6.53% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810586"
+    "scanned_at": "2026-04-29T21:08:37.181949"
   },
   {
     "symbol": "REGN",
     "action": "BUY",
     "confidence": "Medium",
     "price": 686.36,
-    "target": 741.27,
-    "stop_loss": 652.04,
+    "target": 760.0,
+    "stop_loss": 648.0,
     "change_pct": -6.21,
     "volume_spike": 2.76,
     "rsi": 21.2,
@@ -99,7 +99,7 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 21.2 | MACD: bearish | BB: below_lower | Volume spike 2.76x with -6.21% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810607"
+    "scanned_at": "2026-04-29T21:08:37.182098"
   },
   {
     "symbol": "BIIB",
@@ -116,15 +116,15 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 64.2 | MACD: bearish | BB: above_upper | Volume spike 1.88x with +6.00% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810628"
+    "scanned_at": "2026-04-29T21:08:37.182286"
   },
   {
     "symbol": "ODFL",
-    "action": "SELL",
-    "confidence": "Medium",
+    "action": "BUY",
+    "confidence": "Low",
     "price": 209.35,
-    "target": 226.1,
-    "stop_loss": 198.88,
+    "target": 228.0,
+    "stop_loss": 194.0,
     "change_pct": -5.6,
     "volume_spike": 2.72,
     "rsi": 47.5,
@@ -133,7 +133,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 47.5 | MACD: bearish | BB: middle | Volume spike 2.72x with -5.60% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810649"
+    "scanned_at": "2026-04-29T21:08:37.182440"
   },
   {
     "symbol": "QCOM",
@@ -150,15 +150,15 @@
     "sector": "Technology",
     "reasoning": "RSI: 86.4 | MACD: bearish | BB: above_upper | Volume spike 2.66x with +4.00% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810669"
+    "scanned_at": "2026-04-29T21:08:37.182598"
   },
   {
     "symbol": "MA",
     "action": "BUY",
-    "confidence": "Medium",
+    "confidence": "Low",
     "price": 525.23,
-    "target": 567.25,
-    "stop_loss": 498.97,
+    "target": 545.0,
+    "stop_loss": 505.0,
     "change_pct": 3.47,
     "volume_spike": 1.89,
     "rsi": 69.1,
@@ -167,6 +167,6 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 69.1 | MACD: bearish | BB: middle | Volume spike 1.89x with +3.47% price move.",
     "status": "pending",
-    "scanned_at": "2026-04-29T20:56:06.810689"
+    "scanned_at": "2026-04-29T21:08:37.182761"
   }
 ]
