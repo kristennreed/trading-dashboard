@@ -102,7 +102,7 @@
     "bb_position": "middle",
     "sector": "Healthcare",
     "reasoning": "RSI: 37.4 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.81% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-04-28T22:57:02.429164"
   }
 ]
