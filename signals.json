@@ -66,8 +66,10 @@
     "bb_position": "above_upper",
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 62.2 | MACD: bearish | BB: above_upper | Volume spike 2.37x with +3.86% price move.",
-    "status": "pending",
-    "scanned_at": "2026-04-28T22:57:02.428801"
+    "status": "executed",
+    "scanned_at": "2026-04-28T22:57:02.428801",
+    "order_id": "1c34ad64-f614-4b13-b592-9e301de1551a",
+    "executed_at": "2026-04-30T00:39:37.664715"
   },
   {
     "symbol": "CDNS",
