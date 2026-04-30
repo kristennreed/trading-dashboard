@@ -49,7 +49,7 @@
     "bb_position": "above_upper",
     "sector": "Consumer Cyclical",
     "reasoning": "RSI: 78.5 | MACD: bearish | BB: above_upper | Volume spike 3.99x with +8.45% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-04-29T21:08:37.181578"
   },
   {
