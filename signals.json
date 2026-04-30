@@ -30,10 +30,8 @@
     "bb_position": "middle",
     "sector": "Technology",
     "reasoning": "RSI: 62.8 | MACD: bearish | BB: middle | Volume spike 1.55x with -4.79% price move.",
-    "status": "executed",
-    "scanned_at": "2026-04-28T22:57:02.428541",
-    "order_id": "9bc8e939-6940-4c0e-b7f6-2726a3598805",
-    "executed_at": "2026-04-30T00:39:31.207636"
+    "status": "pending",
+    "scanned_at": "2026-04-28T22:57:02.428541"
   },
   {
     "symbol": "UPS",
@@ -49,7 +47,7 @@
     "bb_position": "middle",
     "sector": "Industrials",
     "reasoning": "RSI: 53.8 | MACD: bearish | BB: middle | Volume spike 2.62x with -3.97% price move.",
-    "status": "skipped",
+    "status": "pending",
     "scanned_at": "2026-04-28T22:57:02.428630"
   },
   {
@@ -66,10 +64,8 @@
     "bb_position": "above_upper",
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 62.2 | MACD: bearish | BB: above_upper | Volume spike 2.37x with +3.86% price move.",
-    "status": "executed",
-    "scanned_at": "2026-04-28T22:57:02.428801",
-    "order_id": "1c34ad64-f614-4b13-b592-9e301de1551a",
-    "executed_at": "2026-04-30T00:39:37.664715"
+    "status": "pending",
+    "scanned_at": "2026-04-28T22:57:02.428801"
   },
   {
     "symbol": "CDNS",
@@ -85,7 +81,7 @@
     "bb_position": "middle",
     "sector": "Technology",
     "reasoning": "RSI: 63.1 | MACD: bearish | BB: middle | Volume spike 2.08x with -3.34% price move.",
-    "status": "skipped",
+    "status": "pending",
     "scanned_at": "2026-04-28T22:57:02.429052"
   },
   {
@@ -102,7 +98,7 @@
     "bb_position": "middle",
     "sector": "Healthcare",
     "reasoning": "RSI: 37.4 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.81% price move.",
-    "status": "skipped",
+    "status": "pending",
     "scanned_at": "2026-04-28T22:57:02.429164"
   }
 ]
