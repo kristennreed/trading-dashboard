@@ -136,8 +136,10 @@
     "bb_position": "middle",
     "sector": "Industrials",
     "reasoning": "RSI: 47.5 | MACD: bearish | BB: middle | Volume spike 2.72x with -5.60% price move.",
-    "status": "pending",
-    "scanned_at": "2026-04-29T21:08:37.182440"
+    "status": "executed",
+    "scanned_at": "2026-04-29T21:08:37.182440",
+    "order_id": "31200852-0e44-4a72-9cc0-b0dc113105db",
+    "executed_at": "2026-04-30T02:13:59.428192"
   },
   {
     "symbol": "QCOM",
