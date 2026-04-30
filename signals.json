@@ -30,8 +30,10 @@
     "bb_position": "middle",
     "sector": "Technology",
     "reasoning": "RSI: 62.8 | MACD: bearish | BB: middle | Volume spike 1.55x with -4.79% price move.",
-    "status": "pending",
-    "scanned_at": "2026-04-28T22:57:02.428541"
+    "status": "executed",
+    "scanned_at": "2026-04-28T22:57:02.428541",
+    "order_id": "1c8efc5e-b7c8-4b7c-8af1-b12c0c0af58e",
+    "executed_at": "2026-04-30T00:40:38.982452"
   },
   {
     "symbol": "UPS",
