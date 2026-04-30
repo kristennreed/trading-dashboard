@@ -135,7 +135,10 @@ else:
 
     with tab2:
         pending = [s for s in signals if s["status"] == "pending"]
-        st.write(f"{len(pending)} trades awaiting approval") if pending else st.info("No pending trades")
+        if pending:
+            st.write(f"{len(pending)} trades awaiting approval")
+        else:
+            st.info("No pending trades")
 
     with tab3:
         executed = [s for s in signals if s["status"] == "executed"]
