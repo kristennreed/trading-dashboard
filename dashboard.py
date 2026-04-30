@@ -29,7 +29,27 @@ def load_signals():
         return []
 
 def save_signals(signals):
-    st.session_state['signals'] = signals
+    try:
+        import requests
+        import base64
+        token = st.secrets["GITHUB_TOKEN"]
+        url = "https://api.github.com/repos/kristennreed/trading-dashboard/contents/signals.json"
+        headers = {"Authorization": f"token {token}"}
+        
+        # Get current file SHA
+        r = requests.get(url, headers=headers)
+        sha = r.json()["sha"]
+        
+        # Update file
+        content = base64.b64encode(json.dumps(signals, indent=2).encode()).decode()
+        requests.put(url, headers=headers, json={
+            "message": "Update signal status",
+            "content": content,
+            "sha": sha
+        })
+        st.session_state['signals'] = signals
+    except Exception as e:
+        st.session_state['signals'] = signals
 
 st.subheader("Account Overview")
 try:
