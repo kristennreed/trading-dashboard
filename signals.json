@@ -13,8 +13,10 @@
     "bb_position": "below_lower",
     "sector": "Healthcare",
     "reasoning": "RSI: 20.6 | MACD: bearish | BB: below_lower | Volume spike 7.17x with -13.16% price move.",
-    "status": "pending",
-    "scanned_at": "2026-04-29T21:08:37.181201"
+    "status": "executed",
+    "scanned_at": "2026-04-29T21:08:37.181201",
+    "order_id": "4f8b55bf-e60d-4a99-96ea-2d7fd220212f",
+    "executed_at": "2026-04-30T02:11:33.783281"
   },
   {
     "symbol": "INTC",
