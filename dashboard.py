@@ -16,6 +16,8 @@ st.title("📈 AI Market Scanner Dashboard")
 st.caption(f"Last refreshed: {datetime.now().strftime('%A %B %d, %Y %I:%M %p')}")
 
 def load_signals():
+    if 'signals' in st.session_state:
+        return st.session_state['signals']
     try:
         import requests
         url = "https://raw.githubusercontent.com/kristennreed/trading-dashboard/main/signals.json"
@@ -27,14 +29,7 @@ def load_signals():
         return []
 
 def save_signals(signals):
-    try:
-        import subprocess
-        import json
-        signals_path = os.path.expanduser("~/Desktop/trading-dashboard/signals.json")
-        with open(signals_path, "w") as f:
-            json.dump(signals, f, indent=2)
-    except Exception as e:
-        st.error(f"Could not save signals: {e}")
+    st.session_state['signals'] = signals
 
 st.subheader("Account Overview")
 try:
