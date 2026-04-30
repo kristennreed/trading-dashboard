@@ -83,7 +83,7 @@
     "bb_position": "middle",
     "sector": "Industrials",
     "reasoning": "RSI: 63.5 | MACD: bearish | BB: middle | Volume spike 1.99x with +6.53% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-04-29T21:08:37.181949"
   },
   {
