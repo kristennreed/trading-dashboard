@@ -66,7 +66,7 @@
     "bb_position": "above_upper",
     "sector": "Financial Services",
     "reasoning": "RSI: 80.5 | MACD: bearish | BB: above_upper | Volume spike 2.73x with +8.26% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-04-29T21:08:37.181748"
   },
   {
