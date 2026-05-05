@@ -3,17 +3,17 @@
     "symbol": "PYPL",
     "action": "BUY",
     "confidence": "Low",
-    "price": 46.06,
+    "price": 46.26,
     "target": 51.5,
-    "stop_loss": 43.0,
-    "change_pct": -8.58,
-    "volume_spike": 1.7,
-    "rsi": 37.3,
+    "stop_loss": 43.25,
+    "change_pct": -8.2,
+    "volume_spike": 2.67,
+    "rsi": 37.9,
     "macd": "bearish",
     "bb_position": "middle",
     "sector": "Financial Services",
-    "reasoning": "RSI: 37.3 | MACD: bearish | BB: middle | Volume spike 1.7x with -8.58% price move.",
+    "reasoning": "RSI: 37.9 | MACD: bearish | BB: middle | Volume spike 2.67x with -8.20% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-05T10:00:47.863784"
+    "scanned_at": "2026-05-05T14:30:48.481104"
   }
 ]
