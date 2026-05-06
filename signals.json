@@ -14,7 +14,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 81.5 | MACD: bearish | BB: above_upper | Volume spike 1.79x with +10.79% price move.",
     "status": "skipped",
-    "scanned_at": "2026-05-05T21:04:49.853832",
+    "scanned_at": "2026-05-05T21:15:27.487425",
     "order_id": null,
     "executed_at": null
   },
@@ -33,11 +33,11 @@
     "sector": "Technology",
     "reasoning": "RSI: 72.0 | MACD: bearish | BB: above_upper | Volume spike 1.6x with +9.04% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-05T21:04:49.854206"
+    "scanned_at": "2026-05-05T21:15:27.487826"
   },
   {
     "symbol": "PYPL",
-    "action": "BUY",
+    "action": "SELL",
     "confidence": "Medium",
     "price": 46.49,
     "target": 50.21,
@@ -50,7 +50,7 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 38.8 | MACD: bearish | BB: middle | Volume spike 3.09x with -7.74% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-05T21:04:49.854601"
+    "scanned_at": "2026-05-05T21:15:27.488230"
   },
   {
     "symbol": "PLTR",
@@ -67,7 +67,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 43.0 | MACD: bearish | BB: middle | Volume spike 1.7x with -6.93% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-05T21:04:49.854874"
+    "scanned_at": "2026-05-05T21:15:27.488595"
   },
   {
     "symbol": "EMR",
@@ -84,6 +84,6 @@
     "sector": "Industrials",
     "reasoning": "RSI: 43.3 | MACD: bearish | BB: middle | Volume spike 1.55x with +2.16% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-05T21:04:49.855143"
+    "scanned_at": "2026-05-05T21:15:27.488953"
   }
 ]
