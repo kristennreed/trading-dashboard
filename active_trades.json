@@ -1,0 +1,16 @@
+[
+  {
+    "symbol": "PYPL",
+    "entry_price": 47.08,
+    "qty": 214,
+    "target": 53.05,
+    "stop_loss": 44.5,
+    "order_id": "manual",
+    "executed_at": "2026-05-06T08:31:00",
+    "rsi_at_entry": 38.8,
+    "macd_at_entry": "bearish",
+    "sector": "Financial Services",
+    "confidence": "Medium",
+    "status": "open"
+  }
+]
