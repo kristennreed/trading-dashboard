@@ -1,19 +1,36 @@
 [
   {
+    "symbol": "NET",
+    "action": "SELL",
+    "confidence": "Medium",
+    "price": 194.2,
+    "target": 209.74,
+    "stop_loss": 184.49,
+    "change_pct": -24.37,
+    "volume_spike": 2.23,
+    "rsi": 43.8,
+    "macd": "bearish",
+    "bb_position": "middle",
+    "sector": "Technology",
+    "reasoning": "RSI: 43.8 | MACD: bearish | BB: middle | Volume spike 2.23x with -24.37% price move.",
+    "status": "pending",
+    "scanned_at": "2026-05-08T10:00:58.530767"
+  },
+  {
     "symbol": "MELI",
     "action": "BUY",
     "confidence": "Medium",
-    "price": 1653.7,
-    "target": 1850.0,
-    "stop_loss": 1580.0,
-    "change_pct": -11.57,
-    "volume_spike": 1.67,
-    "rsi": 31.5,
+    "price": 1677.34,
+    "target": 1870.0,
+    "stop_loss": 1600.0,
+    "change_pct": -10.3,
+    "volume_spike": 2.45,
+    "rsi": 33.1,
     "macd": "bearish",
     "bb_position": "below_lower",
     "sector": "Consumer Cyclical",
-    "reasoning": "RSI: 31.5 | MACD: bearish | BB: below_lower | Volume spike 1.67x with -11.57% price move.",
+    "reasoning": "RSI: 33.1 | MACD: bearish | BB: below_lower | Volume spike 2.45x with -10.30% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-08T09:16:15.471032"
+    "scanned_at": "2026-05-08T10:00:58.531185"
   }
 ]
