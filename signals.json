@@ -32,7 +32,7 @@
     "bb_position": "below_lower",
     "sector": "Consumer Cyclical",
     "reasoning": "RSI: 28.9 | MACD: bearish | BB: below_lower | Volume spike 1.52x with -5.56% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-05-11T14:31:14.804150"
   },
   {
