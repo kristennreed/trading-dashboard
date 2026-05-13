@@ -106,7 +106,9 @@ else:
                 if signal["status"] == "pending":
                     col_a, col_b, col_c = st.columns([1,1,4])
                     with col_a:
-                        if st.button("Approve", key=f"approve_{i}"):
+                        if signal["action"] == "SELL":
+                            st.warning("⚠️ SELL signal — short selling disabled")
+                        elif st.button("Approve", key=f"approve_{i}"):
                             try:
                                 order = MarketOrderRequest(
                                     symbol=signal["symbol"],
