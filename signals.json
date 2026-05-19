@@ -13,7 +13,7 @@
     "bb_position": "above_upper",
     "sector": "Technology",
     "reasoning": "RSI: 71.5 | MACD: bearish | BB: above_upper | Volume spike 1.52x with +2.96% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-05-19T12:52:59.650184"
   }
 ]
