@@ -110,9 +110,19 @@ else:
                             st.warning("⚠️ SELL signal — short selling disabled")
                         elif st.button("Approve", key=f"approve_{i}"):
                             try:
+                                account = trading_client.get_account()
+                                portfolio_value = float(account.portfolio_value)
+                                price = float(signal["price"])
+                                stop_loss = float(signal.get("stop_loss", price * 0.95))
+                                stop_distance = abs(price - stop_loss)
+                                max_risk_dollars = portfolio_value * 0.02
+                                shares = int(max_risk_dollars / stop_distance) if stop_distance > 0 else 1
+                                max_by_allocation = int((portfolio_value * 0.10) / price)
+                                shares = min(shares, max_by_allocation)
+                                shares = max(1, shares)
                                 order = MarketOrderRequest(
                                     symbol=signal["symbol"],
-                                    qty=1,
+                                    qty=shares,
                                     side=OrderSide.BUY if signal["action"] == "BUY" else OrderSide.SELL,
                                     time_in_force=TimeInForce.GTC
                                 )
@@ -121,7 +131,7 @@ else:
                                 signals[i]["order_id"] = str(result.id)
                                 signals[i]["executed_at"] = datetime.now().isoformat()
                                 save_signals(signals)
-                                st.success(f"Order placed for {signal['symbol']}! Order ID: {result.id}")
+                                st.success(f"Order placed for {signal['symbol']}! {shares} shares @ ${price:.2f} | Risk: ${shares * stop_distance:.0f} | Order ID: {result.id}")
                                 st.rerun()
                             except Exception as e:
                                 st.error(f"Order failed: {e}")
