@@ -1,19 +1,36 @@
 [
   {
-    "symbol": "SNOW",
+    "symbol": "INTU",
+    "action": "BUY",
+    "confidence": "Medium",
+    "price": 304.3,
+    "target": 340.0,
+    "stop_loss": 290.0,
+    "change_pct": -4.89,
+    "volume_spike": 1.69,
+    "rsi": 26.8,
+    "macd": "bearish",
+    "bb_position": "below_lower",
+    "sector": "Technology",
+    "reasoning": "RSI: 26.8 | MACD: bearish | BB: below_lower | Volume spike 1.69x with -4.89% price move.",
+    "status": "pending",
+    "scanned_at": "2026-05-26T14:31:07.235772"
+  },
+  {
+    "symbol": "ZS",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 169.1,
-    "target": 182.63,
-    "stop_loss": 160.64,
-    "change_pct": 2.96,
-    "volume_spike": 1.52,
-    "rsi": 71.5,
+    "price": 190.23,
+    "target": 205.45,
+    "stop_loss": 180.72,
+    "change_pct": 4.31,
+    "volume_spike": 1.53,
+    "rsi": 82.9,
     "macd": "bearish",
     "bb_position": "above_upper",
     "sector": "Technology",
-    "reasoning": "RSI: 71.5 | MACD: bearish | BB: above_upper | Volume spike 1.52x with +2.96% price move.",
-    "status": "skipped",
-    "scanned_at": "2026-05-19T12:52:59.650184"
+    "reasoning": "RSI: 82.9 | MACD: bearish | BB: above_upper | Volume spike 1.53x with +4.31% price move.",
+    "status": "pending",
+    "scanned_at": "2026-05-26T14:31:07.236007"
   }
 ]
