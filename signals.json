@@ -1,36 +1,19 @@
 [
   {
-    "symbol": "INTU",
-    "action": "BUY",
-    "confidence": "Medium",
-    "price": 304.3,
-    "target": 340.0,
-    "stop_loss": 290.0,
-    "change_pct": -4.89,
-    "volume_spike": 1.69,
-    "rsi": 26.8,
-    "macd": "bearish",
-    "bb_position": "below_lower",
-    "sector": "Technology",
-    "reasoning": "RSI: 26.8 | MACD: bearish | BB: below_lower | Volume spike 1.69x with -4.89% price move.",
-    "status": "pending",
-    "scanned_at": "2026-05-26T14:31:07.235772"
-  },
-  {
     "symbol": "ZS",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 190.23,
-    "target": 205.45,
-    "stop_loss": 180.72,
-    "change_pct": 4.31,
-    "volume_spike": 1.53,
-    "rsi": 82.9,
+    "price": 126.72,
+    "target": 136.86,
+    "stop_loss": 120.38,
+    "change_pct": -31.35,
+    "volume_spike": 4.79,
+    "rsi": 36.3,
     "macd": "bearish",
-    "bb_position": "above_upper",
+    "bb_position": "middle",
     "sector": "Technology",
-    "reasoning": "RSI: 82.9 | MACD: bearish | BB: above_upper | Volume spike 1.53x with +4.31% price move.",
+    "reasoning": "RSI: 36.3 | MACD: bearish | BB: middle | Volume spike 4.79x with -31.35% price move.",
     "status": "pending",
-    "scanned_at": "2026-05-26T14:31:07.236007"
+    "scanned_at": "2026-05-27T10:00:50.149868"
   }
 ]
