@@ -54,5 +54,19 @@
     "sector": "Healthcare",
     "confidence": "High",
     "status": "open"
+  },
+  {
+    "symbol": "INTU",
+    "entry_price": 306.67,
+    "qty": 32,
+    "target": 340.0,
+    "stop_loss": 290.0,
+    "order_id": "manual",
+    "executed_at": "2026-05-13T08:31:00",
+    "rsi_at_entry": 26.8,
+    "macd_at_entry": "bearish",
+    "sector": "Technology",
+    "confidence": "Medium",
+    "status": "open"
   }
 ]
