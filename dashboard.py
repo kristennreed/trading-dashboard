@@ -26,7 +26,6 @@ def load_signals():
         if response.status_code == 200:
             signals = response.json()
             st.session_state['signals'] = signals
-        st.session_state['signals_saved'] = True
             return signals
         return []
     except:
