@@ -18,11 +18,15 @@ st.caption(f"Last refreshed: {datetime.now().strftime('%A %B %d, %Y %I:%M %p')}"
 def load_signals():
     try:
         import requests, time
+        if 'signals' in st.session_state and st.session_state.get('signals_saved', False):
+            st.session_state['signals_saved'] = False
+            return st.session_state['signals']
         url = "https://raw.githubusercontent.com/kristennreed/trading-dashboard/main/signals.json?t=" + str(int(time.time()))
         response = requests.get(url, headers={"Cache-Control": "no-cache"})
         if response.status_code == 200:
             signals = response.json()
             st.session_state['signals'] = signals
+        st.session_state['signals_saved'] = True
             return signals
         return []
     except:
@@ -48,8 +52,10 @@ def save_signals(signals):
             "sha": sha
         })
         st.session_state['signals'] = signals
+        st.session_state['signals_saved'] = True
     except Exception as e:
         st.session_state['signals'] = signals
+        st.session_state['signals_saved'] = True
 
 st.subheader("Account Overview")
 try:
