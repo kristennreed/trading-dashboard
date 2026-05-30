@@ -53,6 +53,7 @@ def save_signals(signals):
         st.session_state['signals'] = signals
         st.session_state['signals_saved'] = True
     except Exception as e:
+        st.error(f"Failed to save signals: {e}")
         st.session_state['signals'] = signals
         st.session_state['signals_saved'] = True
 
