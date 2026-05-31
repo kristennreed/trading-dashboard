@@ -1,19 +1,5 @@
 [
   {
-    "symbol": "ACN",
-    "entry_price": 159.65,
-    "qty": 1,
-    "target": 180.0,
-    "stop_loss": 151.0,
-    "order_id": "manual",
-    "executed_at": "2026-05-13T08:31:00",
-    "rsi_at_entry": 19.1,
-    "macd_at_entry": "bearish",
-    "sector": "Technology",
-    "confidence": "Medium",
-    "status": "open"
-  },
-  {
     "symbol": "AEP",
     "entry_price": 127.18,
     "qty": 1,
@@ -43,7 +29,7 @@
   },
   {
     "symbol": "REGN",
-    "entry_price": 659.27,
+    "entry_price": 627.44,
     "qty": 1,
     "target": 720.0,
     "stop_loss": 600.0,
