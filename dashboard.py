@@ -16,17 +16,14 @@ st.title("📈 AI Market Scanner Dashboard")
 st.caption(f"Last refreshed: {datetime.now().strftime('%A %B %d, %Y %I:%M %p')}")
 
 def load_signals():
+    if 'signals' in st.session_state:
+        return st.session_state['signals']
     try:
-        import requests, time
-        if 'signals' in st.session_state and st.session_state.get('signals_saved', False):
-            st.session_state['signals_saved'] = False
-            return st.session_state['signals']
-        url = "https://raw.githubusercontent.com/kristennreed/trading-dashboard/main/signals.json?t=" + str(int(time.time()))
-        response = requests.get(url, headers={"Cache-Control": "no-cache"})
+        import requests
+        url = "https://raw.githubusercontent.com/kristennreed/trading-dashboard/main/signals.json"
+        response = requests.get(url)
         if response.status_code == 200:
-            signals = response.json()
-            st.session_state['signals'] = signals
-            return signals
+            return response.json()
         return []
     except:
         return []
