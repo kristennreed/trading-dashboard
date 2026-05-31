@@ -169,6 +169,8 @@ else:
 st.divider()
 
 if st.button("Refresh Signals"):
+    if 'signals' in st.session_state:
+        del st.session_state['signals']
     st.rerun()
 
 if st.button("Load Sample Signals"):
