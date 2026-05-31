@@ -166,7 +166,7 @@
     "bb_position": "below_lower",
     "sector": "Consumer Defensive",
     "reasoning": "RSI: 30.8 | MACD: bearish | BB: below_lower | Volume spike 2.93x with -3.91% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-05-29T16:03:43.699851"
   }
 ]
