@@ -144,6 +144,8 @@ else:
                     with col_b:
                         if st.button("Skip", key=f"skip_{i}"):
                             signals[i]["status"] = "skipped"
+                            st.session_state['signals'] = signals
+                            st.session_state['signals_saved'] = True
                             save_signals(signals)
                             st.rerun()
                 elif signal["status"] == "executed":
