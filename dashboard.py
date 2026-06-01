@@ -172,24 +172,13 @@ try:
             badge_color = color
             pl_sign = "+" if pl >= 0 else ""
 
+            stop_line = f"Stop ${stop:,.2f} → Target ${target:,.2f}" if (stop and target) else ""
             st.markdown(f"""
             <div style="display:flex; align-items:center; padding:10px 0; border-bottom:0.5px solid #f0f0f0; gap:12px; font-family:'Plus Jakarta Sans',sans-serif;">
               <div style="flex:1; min-width:0;">
                 <div style="font-size:15px; font-weight:600; color:#111;">{symbol}</div>
                 <div style="font-size:11px; color:#888; margin-top:2px;">{pos.qty} shares · Entry ${entry:,.2f}</div>
-                <div style="font-size:10px; color:#aaa; margin-top:2px;">Stop ${stop:,.2f} → Target ${target:,.2f}</div>
-              </div>
-              {spark}
-              <div style="text-align:right; flex-shrink:0; min-width:90px;">
-                <div style="font-size:15px; font-weight:500; color:#111;">${current:,.2f}</div>
-                <div style="display:inline-block; font-size:11px; font-weight:600; padding:3px 8px; border-radius:6px; margin-top:4px; background:{badge_color}; color:#fff; min-width:70px; text-align:center;">{pl_sign}${abs(pl):,.2f}</div>
-              </div>
-            </div>
-            """, unsafe_allow_html=True) if (stop and target) else st.markdown(f"""
-            <div style="display:flex; align-items:center; padding:10px 0; border-bottom:0.5px solid #f0f0f0; gap:12px; font-family:'Plus Jakarta Sans',sans-serif;">
-              <div style="flex:1; min-width:0;">
-                <div style="font-size:15px; font-weight:600; color:#111;">{symbol}</div>
-                <div style="font-size:11px; color:#888; margin-top:2px;">{pos.qty} shares · Entry ${entry:,.2f}</div>
+                <div style="font-size:10px; color:#aaa; margin-top:2px;">{stop_line}</div>
               </div>
               {spark}
               <div style="text-align:right; flex-shrink:0; min-width:90px;">
