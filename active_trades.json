@@ -42,16 +42,16 @@
     "status": "open"
   },
   {
-    "symbol": "INTU",
-    "entry_price": 306.67,
-    "qty": 32,
-    "target": 340.0,
-    "stop_loss": 290.0,
+    "symbol": "COST",
+    "entry_price": 952.86,
+    "qty": 10,
+    "target": 1050.0,
+    "stop_loss": 930.0,
     "order_id": "manual",
-    "executed_at": "2026-05-13T08:31:00",
-    "rsi_at_entry": 26.8,
+    "executed_at": "2026-06-01T08:31:00",
+    "rsi_at_entry": 30.8,
     "macd_at_entry": "bearish",
-    "sector": "Technology",
+    "sector": "Consumer Staples",
     "confidence": "Medium",
     "status": "open"
   }
