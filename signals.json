@@ -32,7 +32,9 @@
     "bb_position": "below_lower",
     "sector": "Financial Services",
     "reasoning": "RSI: 19.4 | MACD: bearish | BB: below_lower | Volume spike 2.11x with -3.19% price move.",
-    "status": "pending",
-    "scanned_at": "2026-06-02T14:31:02.110808"
+    "status": "executed",
+    "scanned_at": "2026-06-02T14:31:02.110808",
+    "order_id": "aa311b4d-ea05-477f-b62c-df9879798aeb",
+    "executed_at": "2026-06-02T19:55:01.357783"
   }
 ]
