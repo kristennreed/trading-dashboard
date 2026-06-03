@@ -28,21 +28,6 @@
     "status": "open"
   },
   {
-    "symbol": "REGN",
-    "entry_price": 627.44,
-    "qty": 1,
-    "target": 720.0,
-    "stop_loss": 600.0,
-    "order_id": "manual",
-    "executed_at": "2026-05-13T15:00:00",
-    "rsi_at_entry": 22.8,
-    "macd_at_entry": "bearish",
-    "sector": "Healthcare",
-    "confidence": "High",
-    "status": "sold_stop_loss",
-    "sold_at": "2026-06-02T08:30:03.510702"
-  },
-  {
     "symbol": "COST",
     "entry_price": 952.86,
     "qty": 10,
