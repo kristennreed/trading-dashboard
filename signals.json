@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "AVGO",
+    "symbol": "MRVL",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 408.59,
-    "target": 441.28,
-    "stop_loss": 388.16,
-    "change_pct": -14.74,
-    "volume_spike": 1.51,
-    "rsi": 42.9,
+    "price": 319.95,
+    "target": 345.55,
+    "stop_loss": 303.95,
+    "change_pct": 6.07,
+    "volume_spike": 1.9,
+    "rsi": 90.9,
     "macd": "bearish",
-    "bb_position": "middle",
+    "bb_position": "above_upper",
     "sector": "Technology",
-    "reasoning": "RSI: 42.9 | MACD: bearish | BB: middle | Volume spike 1.51x with -14.74% price move.",
+    "reasoning": "RSI: 90.9 | MACD: bearish | BB: above_upper | Volume spike 1.9x with +6.07% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-04T10:00:49.997096"
+    "scanned_at": "2026-06-04T14:30:53.371620"
   }
 ]
