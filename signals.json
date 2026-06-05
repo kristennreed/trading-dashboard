@@ -3,17 +3,17 @@
     "symbol": "MRVL",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 319.95,
-    "target": 345.55,
-    "stop_loss": 303.95,
-    "change_pct": 6.07,
-    "volume_spike": 1.9,
-    "rsi": 90.9,
+    "price": 278.92,
+    "target": 301.23,
+    "stop_loss": 264.97,
+    "change_pct": -11.86,
+    "volume_spike": 1.58,
+    "rsi": 70.5,
     "macd": "bearish",
-    "bb_position": "above_upper",
+    "bb_position": "middle",
     "sector": "Technology",
-    "reasoning": "RSI: 90.9 | MACD: bearish | BB: above_upper | Volume spike 1.9x with +6.07% price move.",
+    "reasoning": "RSI: 70.5 | MACD: bearish | BB: middle | Volume spike 1.58x with -11.86% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-04T14:30:53.371620"
+    "scanned_at": "2026-06-05T14:30:44.719835"
   }
 ]
