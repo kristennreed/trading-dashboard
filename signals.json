@@ -3,17 +3,17 @@
     "symbol": "ADBE",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 204.45,
-    "target": 220.81,
-    "stop_loss": 194.23,
-    "change_pct": -6.56,
-    "volume_spike": 2.35,
-    "rsi": 25.1,
+    "price": 204.77,
+    "target": 221.15,
+    "stop_loss": 194.53,
+    "change_pct": -6.41,
+    "volume_spike": 3.64,
+    "rsi": 25.2,
     "macd": "bearish",
     "bb_position": "below_lower",
     "sector": "Technology",
-    "reasoning": "RSI: 25.1 | MACD: bearish | BB: below_lower | Volume spike 2.35x with -6.56% price move.",
+    "reasoning": "RSI: 25.2 | MACD: bearish | BB: below_lower | Volume spike 3.64x with -6.41% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-12T10:00:43.535508"
+    "scanned_at": "2026-06-12T14:30:46.150746"
   }
 ]
