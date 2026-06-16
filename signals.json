@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "ADBE",
+    "symbol": "MRNA",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 204.77,
-    "target": 221.15,
-    "stop_loss": 194.53,
-    "change_pct": -6.41,
-    "volume_spike": 3.64,
-    "rsi": 25.2,
+    "price": 56.2,
+    "target": 60.7,
+    "stop_loss": 53.39,
+    "change_pct": 7.81,
+    "volume_spike": 1.73,
+    "rsi": 73.0,
     "macd": "bearish",
-    "bb_position": "below_lower",
-    "sector": "Technology",
-    "reasoning": "RSI: 25.2 | MACD: bearish | BB: below_lower | Volume spike 3.64x with -6.41% price move.",
+    "bb_position": "above_upper",
+    "sector": "Healthcare",
+    "reasoning": "RSI: 73.0 | MACD: bearish | BB: above_upper | Volume spike 1.73x with +7.81% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-12T14:30:46.150746"
+    "scanned_at": "2026-06-16T14:30:49.089232"
   }
 ]
