@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "MRNA",
-    "action": "SELL",
+    "symbol": "ACN",
+    "action": "BUY",
     "confidence": "Medium",
-    "price": 56.2,
-    "target": 60.7,
-    "stop_loss": 53.39,
-    "change_pct": 7.81,
-    "volume_spike": 1.73,
-    "rsi": 73.0,
+    "price": 131.74,
+    "target": 158.0,
+    "stop_loss": 124.0,
+    "change_pct": -15.56,
+    "volume_spike": 2.57,
+    "rsi": 16.7,
     "macd": "bearish",
-    "bb_position": "above_upper",
-    "sector": "Healthcare",
-    "reasoning": "RSI: 73.0 | MACD: bearish | BB: above_upper | Volume spike 1.73x with +7.81% price move.",
+    "bb_position": "below_lower",
+    "sector": "Technology",
+    "reasoning": "RSI: 16.7 | MACD: bearish | BB: below_lower | Volume spike 2.57x with -15.56% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-16T14:30:49.089232"
+    "scanned_at": "2026-06-18T10:01:04.902944"
   }
 ]
