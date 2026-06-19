@@ -4,24 +4,24 @@
     "action": "BUY",
     "confidence": "High",
     "price": 127.98,
-    "target": 155.0,
+    "target": 158.0,
     "stop_loss": 119.0,
     "change_pct": -17.97,
-    "volume_spike": 8.31,
+    "volume_spike": 8.32,
     "rsi": 15.8,
     "macd": "bearish",
     "bb_position": "below_lower",
     "sector": "Technology",
-    "reasoning": "RSI: 15.8 | MACD: bearish | BB: below_lower | Volume spike 8.31x with -17.97% price move.",
+    "reasoning": "RSI: 15.8 | MACD: bearish | BB: below_lower | Volume spike 8.32x with -17.97% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.354142"
+    "scanned_at": "2026-06-19T14:31:26.652753"
   },
   {
     "symbol": "CTSH",
     "action": "BUY",
     "confidence": "Medium",
     "price": 43.7,
-    "target": 52.0,
+    "target": 54.0,
     "stop_loss": 40.5,
     "change_pct": -10.49,
     "volume_spike": 6.58,
@@ -31,7 +31,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 20.1 | MACD: bearish | BB: below_lower | Volume spike 6.58x with -10.49% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.354432"
+    "scanned_at": "2026-06-19T14:31:26.653042"
   },
   {
     "symbol": "KLAC",
@@ -48,7 +48,7 @@
     "sector": "Technology",
     "reasoning": "RSI: 72.3 | MACD: bearish | BB: middle | Volume spike 2.17x with +8.73% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.354668"
+    "scanned_at": "2026-06-19T14:31:26.653262"
   },
   {
     "symbol": "MRNA",
@@ -58,14 +58,14 @@
     "target": 69.08,
     "stop_loss": 60.76,
     "change_pct": 3.5,
-    "volume_spike": 3.95,
+    "volume_spike": 3.96,
     "rsi": 81.9,
     "macd": "bearish",
     "bb_position": "above_upper",
     "sector": "Healthcare",
-    "reasoning": "RSI: 81.9 | MACD: bearish | BB: above_upper | Volume spike 3.95x with +3.50% price move.",
+    "reasoning": "RSI: 81.9 | MACD: bearish | BB: above_upper | Volume spike 3.96x with +3.50% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.354904"
+    "scanned_at": "2026-06-19T14:31:26.653489"
   },
   {
     "symbol": "AMZN",
@@ -82,7 +82,7 @@
     "sector": "Consumer Cyclical",
     "reasoning": "RSI: 40.1 | MACD: bearish | BB: middle | Volume spike 1.78x with +2.90% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.355135"
+    "scanned_at": "2026-06-19T14:31:26.653712"
   },
   {
     "symbol": "AON",
@@ -99,7 +99,7 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 39.7 | MACD: bearish | BB: middle | Volume spike 1.59x with -2.74% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.355358"
+    "scanned_at": "2026-06-19T14:31:26.653942"
   },
   {
     "symbol": "JNJ",
@@ -116,7 +116,7 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 42.7 | MACD: bearish | BB: middle | Volume spike 2.54x with -2.48% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.355585"
+    "scanned_at": "2026-06-19T14:31:26.654178"
   },
   {
     "symbol": "CME",
@@ -133,7 +133,7 @@
     "sector": "Financial Services",
     "reasoning": "RSI: 30.4 | MACD: bearish | BB: middle | Volume spike 1.76x with -2.44% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.355811"
+    "scanned_at": "2026-06-19T14:31:26.654406"
   },
   {
     "symbol": "CPRT",
@@ -150,7 +150,7 @@
     "sector": "Industrials",
     "reasoning": "RSI: 33.7 | MACD: bearish | BB: middle | Volume spike 2.67x with +2.41% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.356041"
+    "scanned_at": "2026-06-19T14:31:26.654633"
   },
   {
     "symbol": "BMY",
@@ -167,6 +167,6 @@
     "sector": "Healthcare",
     "reasoning": "RSI: 33.0 | MACD: bearish | BB: middle | Volume spike 2.69x with -2.32% price move.",
     "status": "pending",
-    "scanned_at": "2026-06-19T10:01:32.356270"
+    "scanned_at": "2026-06-19T14:31:26.654862"
   }
 ]
