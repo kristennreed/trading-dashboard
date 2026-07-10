@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "MRNA",
+    "symbol": "META",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 79.76,
-    "target": 86.14,
-    "stop_loss": 75.77,
-    "change_pct": 10.01,
-    "volume_spike": 1.57,
-    "rsi": 83.9,
+    "price": 665.87,
+    "target": 719.14,
+    "stop_loss": 632.58,
+    "change_pct": 5.45,
+    "volume_spike": 1.69,
+    "rsi": 71.2,
     "macd": "bearish",
     "bb_position": "above_upper",
-    "sector": "Healthcare",
-    "reasoning": "RSI: 83.9 | MACD: bearish | BB: above_upper | Volume spike 1.57x with +10.01% price move.",
+    "sector": "Communication Services",
+    "reasoning": "RSI: 71.2 | MACD: bearish | BB: above_upper | Volume spike 1.69x with +5.45% price move.",
     "status": "pending",
-    "scanned_at": "2026-07-03T14:30:47.386056"
+    "scanned_at": "2026-07-10T14:30:50.254669"
   }
 ]
