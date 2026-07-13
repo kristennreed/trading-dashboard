@@ -13,7 +13,7 @@
     "bb_position": "above_upper",
     "sector": "Communication Services",
     "reasoning": "RSI: 71.2 | MACD: bearish | BB: above_upper | Volume spike 1.69x with +5.45% price move.",
-    "status": "pending",
+    "status": "skipped",
     "scanned_at": "2026-07-10T14:30:50.254669"
   }
 ]
