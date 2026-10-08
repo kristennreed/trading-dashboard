@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "MRVL",
+    "symbol": "SBUX",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 286.83,
-    "target": 309.78,
-    "stop_loss": 272.49,
-    "change_pct": 5.74,
-    "volume_spike": 2.69,
-    "rsi": 76.1,
+    "price": 91.48,
+    "target": 98.8,
+    "stop_loss": 86.91,
+    "change_pct": -2.24,
+    "volume_spike": 1.54,
+    "rsi": 30.1,
     "macd": "bearish",
-    "bb_position": "middle",
-    "sector": "Technology",
-    "reasoning": "RSI: 76.1 | MACD: bearish | BB: middle | Volume spike 2.69x with +5.74% price move.",
+    "bb_position": "below_lower",
+    "sector": "Consumer Cyclical",
+    "reasoning": "RSI: 30.1 | MACD: bearish | BB: below_lower | Volume spike 1.54x with -2.24% price move.",
     "status": "pending",
-    "scanned_at": "2026-10-06T14:30:45.257415"
+    "scanned_at": "2026-10-08T10:00:52.356689"
   }
 ]
