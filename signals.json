@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "SNOW",
-    "action": "SELL",
+    "symbol": "JNJ",
+    "action": "BUY",
     "confidence": "Medium",
-    "price": 366.58,
-    "target": 395.91,
-    "stop_loss": 348.25,
-    "change_pct": 6.75,
-    "volume_spike": 1.55,
-    "rsi": 73.3,
+    "price": 249.4,
+    "target": 268.0,
+    "stop_loss": 243.0,
+    "change_pct": -5.44,
+    "volume_spike": 1.56,
+    "rsi": 31.6,
     "macd": "bearish",
-    "bb_position": "above_upper",
-    "sector": "Technology",
-    "reasoning": "RSI: 73.3 | MACD: bearish | BB: above_upper | Volume spike 1.55x with +6.75% price move.",
+    "bb_position": "below_lower",
+    "sector": "Healthcare",
+    "reasoning": "RSI: 31.6 | MACD: bearish | BB: below_lower | Volume spike 1.56x with -5.44% price move.",
     "status": "pending",
-    "scanned_at": "2026-10-09T14:30:46.386940"
+    "scanned_at": "2026-10-13T14:30:48.958819"
   }
 ]
