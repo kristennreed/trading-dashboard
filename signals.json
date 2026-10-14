@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "JNJ",
+    "symbol": "BAC",
     "action": "BUY",
     "confidence": "Medium",
-    "price": 249.4,
-    "target": 268.0,
-    "stop_loss": 243.0,
-    "change_pct": -5.44,
-    "volume_spike": 1.56,
-    "rsi": 31.6,
+    "price": 51.38,
+    "target": 56.5,
+    "stop_loss": 49.5,
+    "change_pct": -4.77,
+    "volume_spike": 2.49,
+    "rsi": 20.1,
     "macd": "bearish",
     "bb_position": "below_lower",
-    "sector": "Healthcare",
-    "reasoning": "RSI: 31.6 | MACD: bearish | BB: below_lower | Volume spike 1.56x with -5.44% price move.",
+    "sector": "Financial Services",
+    "reasoning": "RSI: 20.1 | MACD: bearish | BB: below_lower | Volume spike 2.49x with -4.77% price move.",
     "status": "pending",
-    "scanned_at": "2026-10-13T14:30:48.958819"
+    "scanned_at": "2026-10-14T14:30:55.228104"
   }
 ]
