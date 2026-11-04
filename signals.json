@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "ORCL",
+    "symbol": "DDOG",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 125.35,
-    "target": 135.38,
-    "stop_loss": 119.08,
-    "change_pct": 5.14,
-    "volume_spike": 1.74,
-    "rsi": 42.6,
+    "price": 190.68,
+    "target": 205.93,
+    "stop_loss": 181.15,
+    "change_pct": -13.53,
+    "volume_spike": 1.59,
+    "rsi": 25.0,
     "macd": "bearish",
-    "bb_position": "middle",
+    "bb_position": "below_lower",
     "sector": "Technology",
-    "reasoning": "RSI: 42.6 | MACD: bearish | BB: middle | Volume spike 1.74x with +5.14% price move.",
+    "reasoning": "RSI: 25.0 | MACD: bearish | BB: below_lower | Volume spike 1.59x with -13.53% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-03T14:30:53.983067"
+    "scanned_at": "2026-11-04T10:00:49.490737"
   }
 ]
