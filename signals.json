@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "ABT",
-    "action": "SELL",
+    "symbol": "MELI",
+    "action": "BUY",
     "confidence": "Medium",
-    "price": 115.51,
-    "target": 124.75,
-    "stop_loss": 109.73,
-    "change_pct": 5.59,
-    "volume_spike": 1.35,
-    "rsi": 80.0,
+    "price": 1488.56,
+    "target": 1750.0,
+    "stop_loss": 1380.0,
+    "change_pct": -14.44,
+    "volume_spike": 1.66,
+    "rsi": 25.0,
     "macd": "bearish",
-    "bb_position": "middle",
-    "sector": "Healthcare",
-    "reasoning": "RSI: 80.0 | MACD: bearish | BB: middle | Volume spike 1.35x with +5.59% price move.",
+    "bb_position": "below_lower",
+    "sector": "Consumer Cyclical",
+    "reasoning": "RSI: 25.0 | MACD: bearish | BB: below_lower | Volume spike 1.66x with -14.44% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-05T08:32:00.816167"
+    "scanned_at": "2026-11-05T10:00:59.478350"
   }
 ]
