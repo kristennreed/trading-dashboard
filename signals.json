@@ -3,17 +3,17 @@
     "symbol": "NVDA",
     "action": "BUY",
     "confidence": "Medium",
-    "price": 164.07,
+    "price": 162.32,
     "target": 195.0,
     "stop_loss": 155.0,
-    "change_pct": -5.56,
-    "volume_spike": 4.0,
-    "rsi": 23.3,
+    "change_pct": -2.33,
+    "volume_spike": 1.57,
+    "rsi": 21.8,
     "macd": "bearish",
-    "bb_position": "below_lower",
+    "bb_position": "middle",
     "sector": "Technology",
-    "reasoning": "RSI: 23.3 | MACD: bearish | BB: below_lower | Volume spike 4.0x with -5.56% price move.",
+    "reasoning": "RSI: 21.8 | MACD: bearish | BB: middle | Volume spike 1.57x with -2.33% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-12T14:31:05.318609"
+    "scanned_at": "2026-11-13T14:30:54.365340"
   }
 ]
