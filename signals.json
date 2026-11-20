@@ -1,19 +1,19 @@
 [
   {
-    "symbol": "UNH",
+    "symbol": "MRK",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 333.53,
-    "target": 360.21,
-    "stop_loss": 316.85,
-    "change_pct": -4.68,
-    "volume_spike": 2.74,
-    "rsi": 17.2,
+    "price": 132.81,
+    "target": 143.43,
+    "stop_loss": 126.17,
+    "change_pct": -3.61,
+    "volume_spike": 1.51,
+    "rsi": 28.4,
     "macd": "bearish",
-    "bb_position": "below_lower",
+    "bb_position": "middle",
     "sector": "Healthcare",
-    "reasoning": "RSI: 17.2 | MACD: bearish | BB: below_lower | Volume spike 2.74x with -4.68% price move.",
+    "reasoning": "RSI: 28.4 | MACD: bearish | BB: middle | Volume spike 1.51x with -3.61% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-19T14:30:50.980865"
+    "scanned_at": "2026-11-20T08:31:50.970011"
   }
 ]
