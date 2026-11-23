@@ -1,19 +1,36 @@
 [
   {
-    "symbol": "CRWD",
+    "symbol": "NVDA",
     "action": "SELL",
     "confidence": "Medium",
-    "price": 202.52,
-    "target": 218.72,
-    "stop_loss": 192.39,
-    "change_pct": -11.73,
-    "volume_spike": 1.89,
-    "rsi": 29.5,
+    "price": 166.35,
+    "target": 179.66,
+    "stop_loss": 158.03,
+    "change_pct": 32.52,
+    "volume_spike": 2.23,
+    "rsi": 43.2,
     "macd": "bearish",
     "bb_position": "middle",
     "sector": "Technology",
-    "reasoning": "RSI: 29.5 | MACD: bearish | BB: middle | Volume spike 1.89x with -11.73% price move.",
+    "reasoning": "RSI: 43.2 | MACD: bearish | BB: middle | Volume spike 2.23x with +32.52% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-23T10:00:54.314639"
+    "scanned_at": "2026-11-23T14:31:17.693492"
+  },
+  {
+    "symbol": "CRWD",
+    "action": "SELL",
+    "confidence": "Medium",
+    "price": 207.38,
+    "target": 223.97,
+    "stop_loss": 197.01,
+    "change_pct": -9.61,
+    "volume_spike": 3.79,
+    "rsi": 31.1,
+    "macd": "bearish",
+    "bb_position": "middle",
+    "sector": "Technology",
+    "reasoning": "RSI: 31.1 | MACD: bearish | BB: middle | Volume spike 3.79x with -9.61% price move.",
+    "status": "pending",
+    "scanned_at": "2026-11-23T14:31:17.693858"
   }
 ]
