@@ -14,23 +14,6 @@
     "sector": "Technology",
     "reasoning": "RSI: 35.3 | MACD: bearish | BB: middle | Volume spike 1.52x with +6.44% price move.",
     "status": "pending",
-    "scanned_at": "2026-11-26T08:31:57.403705"
-  },
-  {
-    "symbol": "LRCX",
-    "action": "SELL",
-    "confidence": "Medium",
-    "price": 185.01,
-    "target": 199.81,
-    "stop_loss": 175.76,
-    "change_pct": -5.68,
-    "volume_spike": 1.5,
-    "rsi": 35.3,
-    "macd": "bearish",
-    "bb_position": "middle",
-    "sector": "Technology",
-    "reasoning": "RSI: 35.3 | MACD: bearish | BB: middle | Volume spike 1.5x with -5.68% price move.",
-    "status": "pending",
-    "scanned_at": "2026-11-26T08:31:57.404071"
+    "scanned_at": "2026-11-26T10:00:36.138011"
   }
 ]
